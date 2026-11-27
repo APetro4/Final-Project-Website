@@ -1,0 +1,154 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #F3EFE5;
+    color: #3D382F;
+}
+
+/* Header */
+
+header {
+    background-color: #526B49;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 32px;
+}
+
+header p {
+    margin-bottom: 0;
+}
+
+/* Navigation */
+
+nav {
+    background-color: #3D382F;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px;
+}
+
+nav a:hover {
+    background-color: #A58A65;
+}
+
+/* Main content */
+
+main {
+    max-width: 1100px;
+    margin: auto;
+    padding: 30px 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #526B49;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Buttons */
+
+.button {
+    display: inline-block;
+    background-color: #526B49;
+    color: white;
+    padding: 12px 22px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #3D382F;
+}
+
+/* Footer */
+
+footer {
+    background-color: #3D382F;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Mobile screen adjustments */
+
+@media screen and (max-width: 600px) {
+
+    header h1 {
+        font-size: 26px;
+    }
+
+    nav {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav a {
+        padding: 12px;
+    }
+
+    main {
+        padding: 20px 15px;
+    }
+}
+
+/* Schedule Tables */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: white;
+}
+
+th {
+    background-color: #526B49;
+    color: white;
+    padding: 12px;
+}
+
+td {
+    padding: 12px;
+    border: 1px solid #D8C7A8;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: #F3EFE5;
+}
+
+/* Mobile Table Adjustments */
+
+@media screen and (max-width: 600px) {
+
+    table {
+        font-size: 12px;
+    }
+
+    th, td {
+        padding: 8px 5px;
+    }
+
+}
